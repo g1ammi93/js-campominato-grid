@@ -9,10 +9,13 @@
 header {
     height: 80px;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
-    padding: 15px;
+    margin-left: 15px;
 }
 
 body {
@@ -24,6 +27,13 @@ body {
     max-width: 1080px;
     height: 800px;
     margin: 0 auto;
+}
+
+button {
+    padding: 5px;
+    height: 30px;
+    text-align: center;
+    margin-right: 15px;
 }
 
 /* Grid */
