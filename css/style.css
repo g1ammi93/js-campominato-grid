@@ -3,3 +3,42 @@
     margin: 0;
     padding: 0;
 }
+
+/* Utility */
+
+header {
+    height: 80px;
+    background-color: white;
+}
+
+h1 {
+    padding: 15px;
+}
+
+body {
+    background-color: rgb(127, 255, 212);
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+/* Grid */
+
+#grid {
+    width: 700px;
+    height: 700px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid .cell {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 3px solid white;
+    cursor: pointer;
+}
